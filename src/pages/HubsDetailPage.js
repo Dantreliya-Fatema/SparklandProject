@@ -1,5 +1,3 @@
-// src/pages/HubsDetailPage.js
-
 import React from "react";
 import SmallCard from "../components/SmallCard";
 import BirthdayImg from "../assets/Icons/IMG (4).png";
@@ -16,7 +14,6 @@ import Profile3 from "../assets/Icons/Rectangle 14 (3).png";
 import Profile4 from "../assets/Icons/Rectangle 14 (4).png";
 
 const HubsDetailPage = () => {
-  // Sample data for six cards
   const cardData = [
     {
       name: "Emily Noel",
@@ -102,9 +99,9 @@ const HubsDetailPage = () => {
         style={{
           display: "flex",
           justifyContent: "space-evenly",
-          flexWrap: "wrap", // Allow cards to wrap to the next row
-          paddingLeft: "40px", // Space on the left
-          paddingRight: "40px", // Space on the right
+          flexWrap: "wrap",
+          paddingLeft: "40px",
+          paddingRight: "40px",
         }}
       >
         {renderCards()}

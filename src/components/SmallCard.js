@@ -1,9 +1,5 @@
-// src/components/Card.js
-
 import React from "react";
 import { Avatar, Box, CardMedia, ListItemIcon } from "@mui/material";
-import BirthdayImg from "../assets/Icons/IMG (4).png";
-import SmallImg from "../assets/Icons/Rectangle 14.png";
 
 const SmallCard = ({ name, eventType, icon, smallCardImage, profile }) => {
   return (
@@ -15,7 +11,6 @@ const SmallCard = ({ name, eventType, icon, smallCardImage, profile }) => {
           backgroundColor: "rgb(247 247 247)",
           marginLeft: "20px",
           marginRight: "20px",
-          // marginTop: "40px",
           marginBottom: "40px",
           paddingTop: "10px",
           paddingBottom: "10px",

@@ -1,5 +1,3 @@
-// src/components/SideBar.js
-
 import React from "react";
 import Drawer from "@mui/material/Drawer";
 import Hidden from "@mui/material/Hidden";
@@ -38,7 +36,7 @@ const SideBar = ({ window }) => {
         alignItems: mobileOpen ? "center" : "start",
         height: "100%",
         background: "var(--Off-white, #F9F8FC)",
-        display: mobileOpen ? "flex" : "block", // Conditionally apply flex display
+        display: mobileOpen ? "flex" : "block",
       }}
     >
       <h1
@@ -115,13 +113,7 @@ const SideBar = ({ window }) => {
           }}
         >
           <ListItemIcon>
-            <img
-              src={HubIcon}
-              alt="Compass Icon"
-              width="16"
-              height="16"
-              // style={{ paddingLeft: "30px" }}
-            />
+            <img src={HubIcon} alt="Compass Icon" width="16" height="16" />
           </ListItemIcon>
           <ListItemText
             primary="Hubs"
@@ -169,7 +161,6 @@ const SideBar = ({ window }) => {
   return (
     <div>
       <Toolbar>
-        {/* Menu icon for smaller screens */}
         <Hidden mdUp>
           <IconButton
             color="inherit"
@@ -184,7 +175,6 @@ const SideBar = ({ window }) => {
       </Toolbar>
       <nav aria-label="mailbox folders">
         <Hidden mdUp implementation="js">
-          {/* Drawer for smaller screens */}
           <Drawer
             container={container}
             variant="temporary"
@@ -203,7 +193,6 @@ const SideBar = ({ window }) => {
           </Drawer>
         </Hidden>
         <Hidden smDown implementation="js">
-          {/* Permanent Drawer for larger screens */}
           <Drawer
             variant="permanent"
             open

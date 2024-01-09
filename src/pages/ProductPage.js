@@ -1,10 +1,5 @@
-// src/pages/ProductPage.js
-
 import React from "react";
 import Product from "../components/Product";
-import CatCardImage from "../assets/Icons/Spark Card (4).png";
-import PassportCardImage from "../assets/Icons/Spark Card (3).png";
-import SeaCardImages from "../assets/Icons/Spark Card (2).png";
 import ElephantCardImages from "../assets/Icons/IMG (3).png";
 import Balloon from "../assets/Icons/IMG.png";
 import ManCardImage from "../assets/Icons/IMG (2).png";

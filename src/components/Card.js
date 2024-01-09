@@ -8,7 +8,6 @@ import MemberWhiteIcon from "../assets/Icons/members_white.svg";
 import FlameIcon from "../assets/Icons/flame_white.svg";
 import ShareIcon from "../assets/Icons/share_white.svg";
 import { ListItemIcon } from "@mui/material";
-import Balloon from "../assets/Icons/IMG.png";
 import ProfileIcon from "../assets/Icons/IMG Profile.png";
 import "../fonts/Poppins-Black.ttf";
 import "../../src/App.css";

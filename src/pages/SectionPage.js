@@ -2,7 +2,6 @@ import React from "react";
 import Section from "../components/Section";
 import BirthdayImg from "../assets/Icons/IMG (4).png";
 import DesertImg from "../assets/Icons/IMG (5).png";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import PlusIcon from "../assets/Icons/Plus_oval.svg";
 import { Avatar } from "@mui/material";
 

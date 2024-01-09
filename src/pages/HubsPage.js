@@ -1,5 +1,3 @@
-// src/pages/HubsPage.js
-
 import React from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
@@ -11,7 +9,6 @@ import Toolbar from "@mui/material/Toolbar";
 import InputBase from "@mui/material/InputBase";
 import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
-import NotificationsIcon from "@mui/icons-material/Notifications";
 import Badge from "@mui/material/Badge";
 import MenuItem from "@mui/material/MenuItem";
 import "../App.css";
@@ -33,10 +30,8 @@ const HubsPage = () => {
     <Container className="main-container">
       <Box
         style={{
-          // width: "92%",
           marginBottom: "40px",
           marginLeft: "80px",
-          // border: "1px solid black",
           height: "300px",
           paddingLeft: "81px",
           paddingRight: "133px",
