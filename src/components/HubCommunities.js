@@ -1,14 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-// src/components/HubCommunities.js
-
 import React from "react";
-import { Avatar, Box, ListItemIcon } from "@mui/material";
-import FlameIcon from "../assets/Icons/flame_white.svg";
+import { Box, ListItemIcon } from "@mui/material";
 import Button from "@mui/material/Button";
-import ShareIcon from "../assets/Icons/share_white.svg";
-import MemberWhiteIcon from "../assets/Icons/members_white.svg";
 import OptionIcon from "../assets/Icons/options_gray.svg";
-
 import "../../src/App.css";
 
 const HubCommunities = ({ eventType, hubImages }) => {
@@ -19,11 +13,9 @@ const HubCommunities = ({ eventType, hubImages }) => {
         height: "350px",
         marginBottom: "2px",
         borderRadius: "18px",
-        // display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "space-between",
-
         background: "linear-gradient(to top left, #e8cbc0 0%, #636fa4 100%)",
         marginTop: "20px",
       }}
@@ -37,7 +29,6 @@ const HubCommunities = ({ eventType, hubImages }) => {
           style={{
             borderRadius: "18px 18px 0 0",
             width: "15%",
-            // backgroundColor: "#f5eaea",
             paddingLeft: "10px",
             marginTop: "20px",
           }}

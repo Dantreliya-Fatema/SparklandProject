@@ -18,11 +18,9 @@ const Product = ({ description, imageUrl }) => {
           },
         },
         "@media (max-width: 600px)": {
-          // Styles for small screens
           maxWidth: 250,
         },
         "@media (max-width: 960px)": {
-          // Styles for medium screens
           maxWidth: 280,
         },
       }}

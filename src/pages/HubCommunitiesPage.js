@@ -1,5 +1,3 @@
-// src/pages/HubCommunitiesPage.js
-
 import React from "react";
 import HubCommunities from "../components/HubCommunities";
 import Hub1 from "../assets/Icons/hub1.png";
@@ -56,7 +54,7 @@ const HubCommunitiesPage = () => {
       <div
         style={{
           display: "flex",
-          gap: "20px", // Adjust the gap as needed
+          gap: "20px",
           paddingLeft: "25px",
           marginBottom: "20px",
           marginLeft: "50px",
