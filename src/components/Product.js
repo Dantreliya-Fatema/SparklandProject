@@ -17,6 +17,14 @@ const Product = ({ description, imageUrl }) => {
             display: "flex",
           },
         },
+        "@media (max-width: 600px)": {
+          // Styles for small screens
+          maxWidth: 250,
+        },
+        "@media (max-width: 960px)": {
+          // Styles for medium screens
+          maxWidth: 280,
+        },
       }}
     >
       <div style={{ height: "192px", borderRadius: "20px" }}>

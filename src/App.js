@@ -5,6 +5,8 @@ import CardPage from "./pages/CardPage";
 import HubsDetailPage from "./pages/HubsDetailPage";
 import ProductPage from "./pages/ProductPage";
 import SectionPage from "./pages/SectionPage";
+import MemberPage from "./pages/MemberPage";
+import HubCommunitiesPage from "./pages/HubCommunitiesPage";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <HubsDetailPage />
         <ProductPage />
         <SectionPage />
+        <MemberPage />
+        <HubCommunitiesPage />
       </div>
     </div>
   );
